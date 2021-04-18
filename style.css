@@ -119,6 +119,13 @@ h2 {
         width: 770px;
     }
 
+    .text {
+        width: 550px;
+        margin: 0 auto;
+    }
+
+/* sekce Úvod */
+
    .tlacitko1,
    .tlacitko2 {
        display: inline-block;
@@ -131,6 +138,8 @@ h2 {
    .tlacitko2 {
        margin-left: 10px;
    }
+
+/* sekce Služby naší cestovní kanceláře a sekce Služby našich delegátů na místě */
 
    .obsah-ramecek {
        display: block;
@@ -152,8 +161,140 @@ h2 {
 
    .ramecek2 {
         flex: 0 0 calc((100% - 40px) / 3);
+    }
+
+    .ikona {
+         margin: 40px 90px 20px 90px;
+    }
+
+    .ramecek p {
+        margin-top: 0;
+        margin-bottom: 30px;
+        margin-left: 15px;
+        margin-right: 15px;   
+    }
 }
-   
 
 
+@media screen and (min-width: 1100px) {
+
+    body {
+        width: 1080px;
+    }
+
+/* sekce Úvod */
+
+    .uvod {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .uvodni-foto {
+        width: 425px;
+    }
+
+    .pruh {
+        margin-left: 0;
+    }
+
+    header,
+    .sloupec {
+        flex: 0 0 calc((100% - 60px) / 2);
+    }
+
+    header {
+        order: 2;
+    }
+
+    .sloupec {
+        order: 1;
+        text-align: left;
+    }
+
+/* sekce Služby naší cestovní kanceláře a sekce Služby našich delegátů na místě */
+
+    .obsah-sekce {
+        display: flex;
+        align-items: center;
+    }
+
+    .sluzby-cestovni,
+    .sluzby-delegatu {
+        margin-top: 80px;
+    }
+      
+    .sloupec1 {
+        order: 2;
+    }
+
+    .ramecek {
+        width: 170px;
+    }
+
+    .ramecky1 {
+        order: 1;
+        margin-right: 60px;
+    }
+
+    .ramecky2 {
+        margin-left: 60px;
+    }
+
+    .sloupec1,
+    .sloupec2 {
+        text-align: left;
+        flex-basis: 430px;
+    }
+
+    .ramecky1,
+    .ramecky2 {
+        flex-basis: 550px;
+        margin-top: 0;
+    }
+
+    .text1,
+    .text2 {
+        width: 430px;
+    }
+
+    .ikona {
+        margin: 40px 60px 20px 60px;
+    }
+    
+    .ramecek p {
+        margin-bottom: 40px;
+    }    
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
